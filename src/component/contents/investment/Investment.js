@@ -135,7 +135,7 @@ export default function InvestMent({ user }) {
     //다음 가격정보 받기
     setInterval(() => {
       stockPrice();
-    }, 30000);
+    }, 1000);
   }, []);
   //단일주식정보가져오기
   const getStockInfo = async (ticker) => {

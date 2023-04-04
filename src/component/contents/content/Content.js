@@ -275,13 +275,13 @@ export default function Area() {
               className={styles.gptInput}
               placeholder={"Use Chat GPT"}
             ></input>
-            <button
+            {/* <button
               type="submit"
               onClick={sendChatGPTBtn}
               className={styles.chatGptBtn}
             >
               ⌲
-            </button>
+            </button> */}
           </form>
         </div>
       </div>
