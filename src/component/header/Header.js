@@ -16,7 +16,7 @@ export default function Header({ user }) {
   const [loginModal, setLoginModal] = useState(false);
 
   const REST_API_KEY = "be53e2150bbff9d4927bbf17a7104d90";
-  const REDIRECT_URI = "http://192.168.0.18:3000/kakaologin";
+  const REDIRECT_URI = "https://web-alltu-front-3a9t2bldtx5mz6.sel3.cloudtype.app/kakaologin";
   const navi = useNavigate();
 
   useEffect(() => {
